@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="WP Auth Custom Login">
+	<description>WordPress Coding Standards for WP Auth Custom Login.</description>
+
+	<file>.</file>
+
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/docs/*</exclude-pattern>
+
+	<arg name="basepath" value="."/>
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+
+	<config name="minimum_supported_wp_version" value="6.0"/>
+
+	<rule ref="WordPress"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="wp-auth-custom-login"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

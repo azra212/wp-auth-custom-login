@@ -1,0 +1,49 @@
+.login-form-container .wpacl-divider {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
+.login-form-container .wpacl-divider > p {
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.login-form-container .wpacl-google {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 250px;
+	margin: 0 auto;
+	padding: 12px 16px;
+	background-color: #fff;
+	color: #3c4043;
+	text-decoration: none;
+	border: 1px solid #dadce0;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.login-form-container .wpacl-switch {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.login-form-container .wpacl-switch p {
+	color: #666;
+	font-size: 14px;
+}
+
+.login-form-container .wpacl-switch a {
+	color: #4285f4;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.login-form-container .wpacl-errors {
+	color: #b32d2e;
+	margin-top: 15px;
+}
