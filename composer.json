@@ -1,0 +1,29 @@
+{
+    "name": "azrakadric/wp-auth-custom-login",
+    "description": "Custom WordPress login and registration pages with Google sign-in. WordPress remains the authentication engine.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Azra Kadrić",
+            "homepage": "https://github.com/azra212"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "wp-coding-standards/wpcs": "^3.4.1"
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    }
+}
